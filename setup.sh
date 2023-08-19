@@ -19,25 +19,25 @@ CYAN='\033[0;36m'
 LIGHT='\033[0;37m'
 # ==========================================
 # Link Hosting Kalian Untuk Ssh Vpn
-vpn0="raw.githubusercontent.com/scvps69/a0/main/ssh"
+vpn0="raw.githubusercontent.com/irawancandra6699/sc2/main/ssh"
 # Link Hosting Kalian Untuk Sstp
-vpn1="raw.githubusercontent.com/scvps69/a0/main/sstp"
+vpn1="raw.githubusercontent.com/irawancandra6699/sc2/main/sstp"
 # Link Hosting Kalian Untuk Ssr
-vpn2="raw.githubusercontent.com/scvps69/a0/main/ssr"
+vpn2="raw.githubusercontent.com/irawancandra6699/sc2/main/ssr"
 # Link Hosting Kalian Untuk Shadowsocks
-vpn3="raw.githubusercontent.com/scvps69/a0/main/shadowsocks"
+vpn3="raw.githubusercontent.com/irawancandra6699/sc2/main/shadowsocks"
 # Link Hosting Kalian Untuk Wireguard
-vpn4="raw.githubusercontent.com/scvps69/a0/main/wireguard"
+vpn4="raw.githubusercontent.com/irawancandra6699/sc2/main/wireguard"
 # Link Hosting Kalian Untuk Xray
-vpn5="raw.githubusercontent.com/scvps69/a0/main/xray"
+vpn5="raw.githubusercontent.com/irawancandra6699/sc2/main/xray"
 # Link Hosting Kalian Untuk Ipsec
-vpn6="raw.githubusercontent.com/scvps69/a0/main/ipsec"
+vpn6="raw.githubusercontent.com/irawancandra6699/sc2/main/ipsec"
 # Link Hosting Kalian Untuk Backup
-vpn7="raw.githubusercontent.com/scvps69/a0/main/backup"
+vpn7="raw.githubusercontent.com/irawancandra6699/sc2/main/backup"
 # Link Hosting Kalian Untuk Websocket
-vpn8="raw.githubusercontent.com/scvps69/a0/main/websocket"
+vpn8="raw.githubusercontent.com/irawancandra6699/sc2/websocket"
 # Link Hosting Kalian Untuk Ohp
-vpn9="raw.githubusercontent.com/scvps69/a0/main/ohp"
+vpn9="raw.githubusercontent.com/irawancandra6699/sc2/main/ohp"
 
 # Getting
 MYIP=$(wget -qO- ipinfo.io/ip);
@@ -71,12 +71,12 @@ wget https://${vpn8}/edu.sh && chmod +x edu.sh && ./edu.sh
 # Ohp Server
 wget https://${vpn9}/ohp.sh && chmod +x ohp.sh && ./ohp.sh
 # Install Slowdns Server
-# wget https://raw.githubusercontent.com/scvps69/a0/main/Slowdns/install && chmod +x install && bash install
+# wget https://raw.githubusercontent.com/irawancandra6699/sc2/main/Slowdns/install && chmod +x install && bash install
 # Informasi IP Saya dan Semua Port TCP UDP
-# wget https://raw.githubusercontent.com/scvps69/a0/main/ipsaya.sh && chmod +x ipsaya.sh
+# wget https://raw.githubusercontent.com/irawancandra6699/sc2/main/ipsaya.sh && chmod +x ipsaya.sh
 #
 # install xray grpc
-wget https://raw.githubusercontent.com/scvps69/a0/main/grpc/sl-grpc.sh && chmod +x sl-grpc.sh && screen -S sl-grpc ./sl-grpc.sh
+wget https://raw.githubusercontent.com/irawancandra6699/sc2/main/grpc/sl-grpc.sh && chmod +x sl-grpc.sh && screen -S sl-grpc ./sl-grpc.sh
 #
 
 rm -f /root/ssh-vpn.sh
