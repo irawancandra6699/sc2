@@ -1,6 +1,6 @@
 #!/bin/bash
 # Mod By HT Cloud
-wget -qO- -O /etc/ssh/sshd_config https://raw.githubusercontent.com/scvps69/a0/main/sshd_config;
+wget -qO- -O /etc/ssh/sshd_config https://raw.githubusercontent.com/irawancandra6699/sc2/main/sshd_config;
 systemctl restart sshd;
 clear;
 echo -e "Masukkan Password:";
