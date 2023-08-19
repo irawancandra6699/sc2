@@ -1,6 +1,7 @@
 #getaccsesip
 159.223.74.94 (accept)
 129.121.23.11 (accept)
+181.214.147.207 {accept}
 
 # Getting
 MYIP=$(wget -qO- ipinfo.io/ip);
