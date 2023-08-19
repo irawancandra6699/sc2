@@ -71,7 +71,7 @@ wget https://${vpn8}/edu.sh && chmod +x edu.sh && ./edu.sh
 # Ohp Server
 wget https://${vpn9}/ohp.sh && chmod +x ohp.sh && ./ohp.sh
 # Install Slowdns Server
- wget https://raw.githubusercontent.com/irawancandra6699/sc2/main/Slowdns/install && chmod +x install && bash install
+ #wget https://raw.githubusercontent.com/irawancandra6699/sc2/main/Slowdns/install && chmod +x install && bash install
 # Informasi IP Saya dan Semua Port TCP UDP
  wget https://raw.githubusercontent.com/irawancandra6699/sc2/main/ipsaya.sh && chmod +x ipsaya.sh
 #
