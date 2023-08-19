@@ -1,6 +1,6 @@
 <h2 align="center">
 Auto Script Install All VPN Service
-Mod By WN Store
+Mod By candra Store
 <img src="https://img.shields.io/badge/Version 3-blue.svg"></h2>
 
 </p> 
@@ -21,7 +21,7 @@ apt-get update && apt-get upgrade -y && update-grub && sleep 2 && reboot
 
 2. Lakukan Penginstalan semua layanan dengan command :
 ```html
-rm -f setup.sh && apt update && apt upgrade -y && update-grub && sleep 2 && apt-get update -y && apt-get upgrade && sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl unzip && wget https://raw.githubusercontent.com/scvps69/a0/main/setup.sh && chmod +x setup.sh && sed -i -e 's/\r$//' setup.sh && screen -S setup ./setup.sh
+rm -f setup.sh && apt update && apt upgrade -y && update-grub && sleep 2 && apt-get update -y && apt-get upgrade && sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl unzip && wget https://raw.githubusercontent.com/irawancandra6699/sc2/main/setup.sh && chmod +x setup.sh && sed -i -e 's/\r$//' setup.sh && screen -S setup ./setup.sh
 ```
 3. Jika sudah terinstall tetapi tidak bisa login, coba gunakan port
 22 atau 2253
@@ -37,7 +37,7 @@ rm -f setup.sh && apt update && apt upgrade -y && update-grub && sleep 2 && apt-
 
 ## Mengubah perizinan root dan mengganti password root
 ```html
-wget -qO- -O vpsroot.sh https://raw.githubusercontent.com/scvps69/a0/main/vpsroot.sh && bash vpsroot.sh
+wget -qO- -O vpsroot.sh https://raw.githubusercontent.com/irawancandra6699/sc2/main/vpsroot.sh && bash vpsroot.sh
 ```
 
 ### FITUR² SCRIPT
